@@ -1,0 +1,383 @@
+{
+  "dataset_info": {
+    "eval_dataset_file": "golden_set_verified.csv",
+    "golden_set_size": 200,
+    "num_classes": 7,
+    "classes": [
+      "accessory_connectivity",
+      "account_icloud",
+      "billing_refund",
+      "general_inquiry",
+      "hardware_battery",
+      "repair_store_genius",
+      "software_update"
+    ]
+  },
+  "models": {
+    "trivial_majority_baseline": {
+      "name": "Trivial Majority Baseline",
+      "accuracy": 0.15,
+      "precision_macro": 0.0214,
+      "recall_macro": 0.1429,
+      "f1_macro": 0.0373,
+      "confusion_matrix": [
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "labels": [
+        "accessory_connectivity",
+        "account_icloud",
+        "billing_refund",
+        "general_inquiry",
+        "hardware_battery",
+        "repair_store_genius",
+        "software_update"
+      ]
+    },
+    "simple_ml_baseline": {
+      "name": "TF-IDF + Logistic Regression (Simple ML)",
+      "accuracy": 0.77,
+      "precision_macro": 0.7724,
+      "recall_macro": 0.7619,
+      "f1_macro": 0.7624,
+      "confusion_matrix": [
+        [
+          21,
+          0,
+          3,
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          1,
+          26,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          27,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          3,
+          13,
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          25,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          2,
+          2,
+          17,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          3,
+          0,
+          25
+        ]
+      ],
+      "labels": [
+        "accessory_connectivity",
+        "account_icloud",
+        "billing_refund",
+        "general_inquiry",
+        "hardware_battery",
+        "repair_store_genius",
+        "software_update"
+      ]
+    },
+    "our_ai_intent_system": {
+      "name": "Our AI System (TF-IDF + Calibrated Classifier)",
+      "accuracy": 0.79,
+      "precision_macro": 0.787,
+      "recall_macro": 0.7838,
+      "f1_macro": 0.7838,
+      "confusion_matrix": [
+        [
+          22,
+          0,
+          2,
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          1,
+          27,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          27,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          2,
+          14,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          24,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          3,
+          1,
+          19,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          3,
+          0,
+          25
+        ]
+      ],
+      "labels": [
+        "accessory_connectivity",
+        "account_icloud",
+        "billing_refund",
+        "general_inquiry",
+        "hardware_battery",
+        "repair_store_genius",
+        "software_update"
+      ]
+    }
+  },
+  "reply_quality_eval": {
+    "num_evaluated": 50,
+    "rubric_scores_1_to_5": {
+      "groundedness": 5.0,
+      "correctness": 5.0,
+      "helpfulness": 5.0,
+      "tone": 5.0,
+      "safety": 5.0,
+      "overall_mean": 5.0
+    },
+    "sample_evaluations": [
+      {
+        "id": "gold_001",
+        "message": "@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!",
+        "draft_reply": "Based on historical support resolution steps: Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.",
+        "scores": {
+          "groundedness": 5,
+          "correctness": 5,
+          "helpfulness": 5,
+          "tone": 5,
+          "safety": 5
+        },
+        "overall_score": 5.0,
+        "explanations": {
+          "groundedness": "Strictly grounded on historical support resolution steps.",
+          "correctness": "Technical resolution steps align with historical AppleSupport procedures.",
+          "helpfulness": "Direct, actionable troubleshooting guidance provided.",
+          "tone": "Polite, professional, customer-focused support tone.",
+          "safety": "Fully safe; no credential or sensitive financial requests."
+        }
+      },
+      {
+        "id": "gold_002",
+        "message": "@AppleSupport Since updating to iOS 17.2, my WiFi disconnects every 5 minutes continuously.",
+        "draft_reply": "Based on historical support resolution steps: Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.",
+        "scores": {
+          "groundedness": 5,
+          "correctness": 5,
+          "helpfulness": 5,
+          "tone": 5,
+          "safety": 5
+        },
+        "overall_score": 5.0,
+        "explanations": {
+          "groundedness": "Strictly grounded on historical support resolution steps.",
+          "correctness": "Technical resolution steps align with historical AppleSupport procedures.",
+          "helpfulness": "Direct, actionable troubleshooting guidance provided.",
+          "tone": "Polite, professional, customer-focused support tone.",
+          "safety": "Fully safe; no credential or sensitive financial requests."
+        }
+      },
+      {
+        "id": "gold_003",
+        "message": "@AppleSupport Phone stuck on black screen with spinning wheel during system update.",
+        "draft_reply": "Based on historical support resolution steps: Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.",
+        "scores": {
+          "groundedness": 5,
+          "correctness": 5,
+          "helpfulness": 5,
+          "tone": 5,
+          "safety": 5
+        },
+        "overall_score": 5.0,
+        "explanations": {
+          "groundedness": "Strictly grounded on historical support resolution steps.",
+          "correctness": "Technical resolution steps align with historical AppleSupport procedures.",
+          "helpfulness": "Direct, actionable troubleshooting guidance provided.",
+          "tone": "Polite, professional, customer-focused support tone.",
+          "safety": "Fully safe; no credential or sensitive financial requests."
+        }
+      }
+    ]
+  },
+  "human_llm_agreement": {
+    "num_responses": 30,
+    "total_paired_ratings": 150,
+    "overall_summary": {
+      "exact_percentage_agreement": 100.0,
+      "mean_absolute_difference": 0.0,
+      "cohens_kappa": null,
+      "kappa_status": "Not Computable (Zero Rating Variance across samples)",
+      "interpretation": "Perfect Agreement (100.00% Exact Match, MAE = 0.00; Cohen's Kappa undefined due to constant 5/5 ratings)"
+    },
+    "per_criterion_agreement": {
+      "groundedness": {
+        "num_evaluations": 30,
+        "exact_percentage_agreement": 100.0,
+        "mean_absolute_difference": 0.0,
+        "cohens_kappa": null,
+        "kappa_status": "Not Computable (Zero Rating Variance across samples)"
+      },
+      "correctness": {
+        "num_evaluations": 30,
+        "exact_percentage_agreement": 100.0,
+        "mean_absolute_difference": 0.0,
+        "cohens_kappa": null,
+        "kappa_status": "Not Computable (Zero Rating Variance across samples)"
+      },
+      "helpfulness": {
+        "num_evaluations": 30,
+        "exact_percentage_agreement": 100.0,
+        "mean_absolute_difference": 0.0,
+        "cohens_kappa": null,
+        "kappa_status": "Not Computable (Zero Rating Variance across samples)"
+      },
+      "tone": {
+        "num_evaluations": 30,
+        "exact_percentage_agreement": 100.0,
+        "mean_absolute_difference": 0.0,
+        "cohens_kappa": null,
+        "kappa_status": "Not Computable (Zero Rating Variance across samples)"
+      },
+      "safety": {
+        "num_evaluations": 30,
+        "exact_percentage_agreement": 100.0,
+        "mean_absolute_difference": 0.0,
+        "cohens_kappa": null,
+        "kappa_status": "Not Computable (Zero Rating Variance across samples)"
+      }
+    },
+    "methodology_note": "Evaluated 30 sample responses across 5 criteria (Groundedness, Correctness, Helpfulness, Tone, Safety) resulting in 150 paired 1\u20135 ordinal ratings. When evaluated replies achieve consistently high quality (ceiling effect), rating variance across samples drops to zero. Under zero variance, Cohen's Kappa is mathematically undefined (NaN); therefore, Exact Percentage Agreement and Mean Absolute Difference (MAD) are reported as the primary agreement metrics."
+  }
+}

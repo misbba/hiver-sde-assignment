@@ -1,0 +1,83 @@
+{
+  "empirical_classifier_failures_count": 42,
+  "top_5_failure_modes": [
+    {
+      "rank": 1,
+      "failure_mode": "Cross-Intent Lexicon Overlap (Battery vs. Software Update)",
+      "what_went_wrong": "The model misclassified a post-update battery issue as hardware_battery instead of software_update due to strong keyword presence of 'battery health'.",
+      "real_example": "@AppleSupport Battery health percentage dropped 5% overnight after software patch.",
+      "expected_behavior": "true_intent: software_update | action: AUTO-HANDLE",
+      "system_behavior": "predicted_intent: hardware_battery | action: AUTO-HANDLE",
+      "root_cause_hypothesis": "TF-IDF assigns high weight to 'battery health' unigrams which strongly correlate with hardware_battery, overpowering the contextual modifier 'after software patch'.",
+      "suggested_improvement": "Incorporate sublinear n-gram feature scaling (1,3 n-grams) or dense contextual embeddings (e.g. Sentence-BERT) that capture long-range modifier semantics."
+    },
+    {
+      "rank": 2,
+      "failure_mode": "App-Brand Keyword Dominance over Issue Context",
+      "what_went_wrong": "The message describes an OS software launch crash for Apple Music, but the classifier predicted billing_refund.",
+      "real_example": "@AppleSupport Apple Music app won't open after updating my phone software.",
+      "expected_behavior": "true_intent: software_update | action: AUTO-HANDLE",
+      "system_behavior": "predicted_intent: billing_refund | action: ESCALATE",
+      "root_cause_hypothesis": "The brand term 'Apple Music' heavily co-occurs in training data with subscription/billing queries, causing the classifier to skew towards billing_refund.",
+      "suggested_improvement": "Mask brand product names (e.g., replace 'Apple Music' with '[APP_NAME]') during text preprocessing to decouple product entities from functional intents."
+    },
+    {
+      "rank": 3,
+      "failure_mode": "Accessory Peripheral vs. Primary Hardware Confusion",
+      "what_went_wrong": "Query regarding a MagSafe battery accessory was predicted as primary phone hardware_battery.",
+      "real_example": "@AppleSupport MagSafe Battery Pack charging iPhone slowly at 5W.",
+      "expected_behavior": "true_intent: accessory_connectivity | action: AUTO-HANDLE",
+      "system_behavior": "predicted_intent: hardware_battery | action: AUTO-HANDLE",
+      "root_cause_hypothesis": "The query contains 'Battery' and 'charging', which overlap strongly with core device battery issues. The model missed the accessory qualifier 'MagSafe Battery Pack'.",
+      "suggested_improvement": "Add explicit accessory entity gazetteers (AirPods, MagSafe, Apple Watch, Apple Pencil) during feature extraction."
+    },
+    {
+      "rank": 4,
+      "failure_mode": "Repair Tracking Number vs. Account ID Token Collision",
+      "what_went_wrong": "Query regarding repair dispatch status was misclassified as account_icloud due to the presence of 'ID' and numerical tokens.",
+      "real_example": "@AppleSupport My repair status for dispatch ID R987234 has not updated in 5 business days.",
+      "expected_behavior": "true_intent: repair_store_genius | action: ESCALATE",
+      "system_behavior": "predicted_intent: account_icloud | action: ESCALATE",
+      "root_cause_hypothesis": "Token 'ID' strongly signals Apple ID / account_icloud in TF-IDF space, overshadowing 'repair status' and 'dispatch'.",
+      "suggested_improvement": "Regex-normalize dispatch IDs (e.g. replace 'ID R987234' with '[TRACKING_ID]') during preprocessing."
+    },
+    {
+      "rank": 5,
+      "failure_mode": "Security Lock vs. System Lock Screen Term Confusion",
+      "what_went_wrong": "Activation Lock (an iCloud account security feature) was misclassified as software_update.",
+      "real_example": "@AppleSupport Activation Lock screen appears on refurbished phone bought second-hand.",
+      "expected_behavior": "true_intent: account_icloud | action: ESCALATE",
+      "system_behavior": "predicted_intent: software_update | action: AUTO-HANDLE",
+      "root_cause_hypothesis": "The phrase 'Lock screen' has high TF-IDF association with iOS Lock Screen software widgets and updates in the training corpus.",
+      "suggested_improvement": "Add compound tokenization so 'Activation Lock' is an atomic security token."
+    }
+  ],
+  "evaluation_limitations": [
+    {
+      "limitation": "Reply Evaluation Ceiling Effect",
+      "details": "In deterministic/offline mock mode, generated replies achieve high rubric scores (5.00/5.00) because top retrieved historical resolutions are high quality. This masks potential live LLM API rate limits, latency spikes, or generative hallucinations."
+    },
+    {
+      "limitation": "Human/LLM Agreement Ceiling Effect",
+      "details": "Reference ratings for high-quality responses are uniformly 5/5, causing zero rating variance across samples. Under zero variance, Cohen's Kappa is mathematically undefined (NaN), requiring reliance on Exact Percentage Agreement (100.0%) and Mean Absolute Difference (MAD = 0.0000)."
+    },
+    {
+      "limitation": "200-Example Golden Evaluation Set Provenance",
+      "details": "Candidates were programmatically generated and individually reviewed by a human annotator using the interactive human verification workflow (`review_golden_set.py`). While high quality, it represents a 200-example subsample of real-world Twitter traffic."
+    },
+    {
+      "limitation": "Single-Label Intent Constraint",
+      "details": "Real customer messages often express compound issues (e.g., a billing complaint caused by a software update bug). Single-label classification forces an arbitrary primary choice."
+    }
+  ],
+  "what_is_misleading_about_my_headline_number": {
+    "headline_number": "0.7838 Macro F1-Score / 0.7900 Accuracy on 200 Manually Reviewed Golden Examples (`data/golden_set_verified.csv`)",
+    "misleading_aspects": [
+      "1. Out-of-Distribution Real World Noise: The golden set consists of clean English text. Real Twitter feeds contain heavy typos, obscure slang, non-English text, and image attachments.",
+      "2. Static Offline RAG vs. Dynamic API: Metrics evaluate static historical text matching on CPU, ignoring live API rate limits, network timeouts, or dynamic LLM hallucinations.",
+      "3. Single-Label Ambiguity: Compound customer queries (e.g. post-update billing disputes) are forced into a single intent label, making single-label accuracy artificially strict on ambiguous boundary items.",
+      "4. Subsampled Knowledge Base: RAG index contains paired historical tweets, but full production support requires real-time knowledge base updates as new products/OS versions release.",
+      "5. Subsample Scope Limitation: The benchmark is a 200-example subsample of `@AppleSupport` interactions and may not fully generalize to the full 2.8M TWCS dataset or diverse multi-brand enterprise feeds."
+    ]
+  }
+}

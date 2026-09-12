@@ -1,0 +1,501 @@
+tweet_id,author_id,inbound,created_at,text,response_by_tweet_id,in_response_to_tweet_id
+200,user_200,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,201,
+201,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_200 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,200
+202,user_202,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,203,
+203,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_202 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,202
+204,user_204,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",205,
+205,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,204
+206,user_206,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,207,
+207,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,206
+208,user_208,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,209,
+209,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,208
+210,user_210,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,211,
+211,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,210
+212,user_212,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,213,
+213,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,212
+214,user_214,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,215,
+215,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,214
+216,user_216,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,217,
+217,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,216
+218,user_218,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,219,
+219,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_2180 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,218
+220,user_220,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,221,
+221,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_220 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,220
+222,user_222,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,223,
+223,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_222 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,222
+224,user_224,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",225,
+225,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,224
+226,user_226,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,227,
+227,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,226
+228,user_228,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,229,
+229,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,228
+230,user_230,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,231,
+231,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,230
+232,user_232,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,233,
+233,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,232
+234,user_234,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,235,
+235,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,234
+236,user_236,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,237,
+237,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,236
+238,user_238,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,239,
+239,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_2380 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,238
+240,user_240,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,241,
+241,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_240 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,240
+242,user_242,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,243,
+243,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_242 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,242
+244,user_244,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",245,
+245,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,244
+246,user_246,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,247,
+247,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,246
+248,user_248,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,249,
+249,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,248
+250,user_250,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,251,
+251,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,250
+252,user_252,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,253,
+253,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,252
+254,user_254,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,255,
+255,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,254
+256,user_256,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,257,
+257,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,256
+258,user_258,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,259,
+259,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_2580 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,258
+260,user_260,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,261,
+261,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_260 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,260
+262,user_262,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,263,
+263,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_262 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,262
+264,user_264,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",265,
+265,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,264
+266,user_266,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,267,
+267,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,266
+268,user_268,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,269,
+269,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,268
+270,user_270,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,271,
+271,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,270
+272,user_272,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,273,
+273,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,272
+274,user_274,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,275,
+275,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,274
+276,user_276,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,277,
+277,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,276
+278,user_278,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,279,
+279,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_2780 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,278
+280,user_280,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,281,
+281,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_280 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,280
+282,user_282,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,283,
+283,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_282 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,282
+284,user_284,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",285,
+285,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,284
+286,user_286,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,287,
+287,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,286
+288,user_288,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,289,
+289,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,288
+290,user_290,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,291,
+291,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,290
+292,user_292,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,293,
+293,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,292
+294,user_294,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,295,
+295,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,294
+296,user_296,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,297,
+297,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,296
+298,user_298,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,299,
+299,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_2980 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,298
+300,user_300,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,301,
+301,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_300 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,300
+302,user_302,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,303,
+303,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_302 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,302
+304,user_304,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",305,
+305,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,304
+306,user_306,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,307,
+307,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,306
+308,user_308,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,309,
+309,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,308
+310,user_310,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,311,
+311,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,310
+312,user_312,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,313,
+313,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,312
+314,user_314,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,315,
+315,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,314
+316,user_316,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,317,
+317,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,316
+318,user_318,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,319,
+319,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_3180 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,318
+320,user_320,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,321,
+321,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_320 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,320
+322,user_322,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,323,
+323,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_322 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,322
+324,user_324,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",325,
+325,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,324
+326,user_326,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,327,
+327,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,326
+328,user_328,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,329,
+329,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,328
+330,user_330,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,331,
+331,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,330
+332,user_332,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,333,
+333,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,332
+334,user_334,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,335,
+335,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,334
+336,user_336,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,337,
+337,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,336
+338,user_338,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,339,
+339,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_3380 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,338
+340,user_340,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,341,
+341,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_340 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,340
+342,user_342,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,343,
+343,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_342 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,342
+344,user_344,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",345,
+345,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,344
+346,user_346,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,347,
+347,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,346
+348,user_348,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,349,
+349,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,348
+350,user_350,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,351,
+351,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,350
+352,user_352,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,353,
+353,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,352
+354,user_354,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,355,
+355,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,354
+356,user_356,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,357,
+357,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,356
+358,user_358,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,359,
+359,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_3580 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,358
+360,user_360,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,361,
+361,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_360 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,360
+362,user_362,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,363,
+363,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_362 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,362
+364,user_364,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",365,
+365,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,364
+366,user_366,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,367,
+367,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,366
+368,user_368,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,369,
+369,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,368
+370,user_370,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,371,
+371,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,370
+372,user_372,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,373,
+373,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,372
+374,user_374,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,375,
+375,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,374
+376,user_376,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,377,
+377,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,376
+378,user_378,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,379,
+379,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_3780 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,378
+380,user_380,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,381,
+381,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_380 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,380
+382,user_382,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,383,
+383,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_382 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,382
+384,user_384,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",385,
+385,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,384
+386,user_386,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,387,
+387,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,386
+388,user_388,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,389,
+389,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,388
+390,user_390,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,391,
+391,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,390
+392,user_392,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,393,
+393,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,392
+394,user_394,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,395,
+395,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,394
+396,user_396,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,397,
+397,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,396
+398,user_398,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,399,
+399,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_3980 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,398
+400,user_400,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,401,
+401,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_400 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,400
+402,user_402,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,403,
+403,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_402 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,402
+404,user_404,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",405,
+405,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,404
+406,user_406,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,407,
+407,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,406
+408,user_408,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,409,
+409,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,408
+410,user_410,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,411,
+411,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,410
+412,user_412,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,413,
+413,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,412
+414,user_414,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,415,
+415,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,414
+416,user_416,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,417,
+417,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,416
+418,user_418,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,419,
+419,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_4180 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,418
+420,user_420,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,421,
+421,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_420 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,420
+422,user_422,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,423,
+423,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_422 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,422
+424,user_424,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",425,
+425,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,424
+426,user_426,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,427,
+427,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,426
+428,user_428,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,429,
+429,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,428
+430,user_430,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,431,
+431,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,430
+432,user_432,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,433,
+433,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,432
+434,user_434,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,435,
+435,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,434
+436,user_436,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,437,
+437,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,436
+438,user_438,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,439,
+439,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_4380 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,438
+440,user_440,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,441,
+441,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_440 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,440
+442,user_442,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,443,
+443,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_442 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,442
+444,user_444,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",445,
+445,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,444
+446,user_446,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,447,
+447,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,446
+448,user_448,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,449,
+449,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,448
+450,user_450,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,451,
+451,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,450
+452,user_452,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,453,
+453,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,452
+454,user_454,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,455,
+455,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,454
+456,user_456,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,457,
+457,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,456
+458,user_458,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,459,
+459,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_4580 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,458
+460,user_460,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,461,
+461,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_460 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,460
+462,user_462,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,463,
+463,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_462 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,462
+464,user_464,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",465,
+465,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,464
+466,user_466,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,467,
+467,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,466
+468,user_468,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,469,
+469,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,468
+470,user_470,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,471,
+471,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,470
+472,user_472,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,473,
+473,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,472
+474,user_474,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,475,
+475,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,474
+476,user_476,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,477,
+477,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,476
+478,user_478,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,479,
+479,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_4780 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,478
+480,user_480,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,481,
+481,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_480 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,480
+482,user_482,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,483,
+483,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_482 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,482
+484,user_484,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",485,
+485,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,484
+486,user_486,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,487,
+487,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,486
+488,user_488,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,489,
+489,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,488
+490,user_490,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,491,
+491,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,490
+492,user_492,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,493,
+493,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,492
+494,user_494,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,495,
+495,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,494
+496,user_496,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,497,
+497,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,496
+498,user_498,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,499,
+499,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_4980 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,498
+500,user_500,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,501,
+501,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_500 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,500
+502,user_502,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,503,
+503,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_502 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,502
+504,user_504,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",505,
+505,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,504
+506,user_506,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,507,
+507,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,506
+508,user_508,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,509,
+509,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,508
+510,user_510,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,511,
+511,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,510
+512,user_512,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,513,
+513,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,512
+514,user_514,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,515,
+515,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,514
+516,user_516,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,517,
+517,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,516
+518,user_518,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,519,
+519,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_5180 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,518
+520,user_520,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,521,
+521,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_520 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,520
+522,user_522,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,523,
+523,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_522 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,522
+524,user_524,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",525,
+525,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,524
+526,user_526,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,527,
+527,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,526
+528,user_528,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,529,
+529,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,528
+530,user_530,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,531,
+531,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,530
+532,user_532,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,533,
+533,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,532
+534,user_534,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,535,
+535,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,534
+536,user_536,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,537,
+537,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,536
+538,user_538,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,539,
+539,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_5380 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,538
+540,user_540,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,541,
+541,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_540 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,540
+542,user_542,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,543,
+543,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_542 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,542
+544,user_544,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",545,
+545,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,544
+546,user_546,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,547,
+547,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,546
+548,user_548,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,549,
+549,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,548
+550,user_550,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,551,
+551,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,550
+552,user_552,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,553,
+553,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,552
+554,user_554,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,555,
+555,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,554
+556,user_556,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,557,
+557,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,556
+558,user_558,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,559,
+559,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_5580 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,558
+560,user_560,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,561,
+561,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_560 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,560
+562,user_562,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,563,
+563,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_562 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,562
+564,user_564,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",565,
+565,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,564
+566,user_566,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,567,
+567,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,566
+568,user_568,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,569,
+569,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,568
+570,user_570,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,571,
+571,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,570
+572,user_572,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,573,
+573,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,572
+574,user_574,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,575,
+575,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,574
+576,user_576,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,577,
+577,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,576
+578,user_578,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,579,
+579,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_5780 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,578
+580,user_580,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,581,
+581,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_580 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,580
+582,user_582,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,583,
+583,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_582 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,582
+584,user_584,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",585,
+585,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,584
+586,user_586,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,587,
+587,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,586
+588,user_588,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,589,
+589,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,588
+590,user_590,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,591,
+591,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,590
+592,user_592,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,593,
+593,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,592
+594,user_594,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,595,
+595,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,594
+596,user_596,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,597,
+597,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,596
+598,user_598,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,599,
+599,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_5980 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,598
+600,user_600,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,601,
+601,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_600 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,600
+602,user_602,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,603,
+603,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_602 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,602
+604,user_604,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",605,
+605,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,604
+606,user_606,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,607,
+607,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,606
+608,user_608,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,609,
+609,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,608
+610,user_610,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,611,
+611,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,610
+612,user_612,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,613,
+613,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,612
+614,user_614,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,615,
+615,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,614
+616,user_616,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,617,
+617,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,616
+618,user_618,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,619,
+619,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_6180 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,618
+620,user_620,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,621,
+621,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_620 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,620
+622,user_622,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,623,
+623,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_622 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,622
+624,user_624,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",625,
+625,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,624
+626,user_626,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,627,
+627,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,626
+628,user_628,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,629,
+629,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,628
+630,user_630,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,631,
+631,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,630
+632,user_632,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,633,
+633,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,632
+634,user_634,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,635,
+635,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,634
+636,user_636,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,637,
+637,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,636
+638,user_638,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,639,
+639,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_6380 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,638
+640,user_640,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,641,
+641,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_640 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,640
+642,user_642,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,643,
+643,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_642 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,642
+644,user_644,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",645,
+645,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,644
+646,user_646,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,647,
+647,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,646
+648,user_648,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,649,
+649,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,648
+650,user_650,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,651,
+651,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,650
+652,user_652,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,653,
+653,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,652
+654,user_654,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,655,
+655,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,654
+656,user_656,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,657,
+657,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,656
+658,user_658,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,659,
+659,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_6580 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,658
+660,user_660,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,661,
+661,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_660 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,660
+662,user_662,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,663,
+663,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_662 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,662
+664,user_664,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",665,
+665,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,664
+666,user_666,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,667,
+667,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,666
+668,user_668,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,669,
+669,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,668
+670,user_670,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,671,
+671,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,670
+672,user_672,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,673,
+673,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,672
+674,user_674,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,675,
+675,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,674
+676,user_676,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,677,
+677,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,676
+678,user_678,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,679,
+679,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_6780 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,678
+680,user_680,True,Tue Oct 31 22:10:00 +0000 2017,@AppleSupport My iPhone screen went completely black after the latest update and won't turn on!,681,
+681,AppleSupport,False,Tue Oct 31 22:15:00 +0000 2017,"@user_680 We're here to help! Try a forced restart by pressing Volume Up, Volume Down, then hold Power button.",,680
+682,user_682,True,Tue Oct 31 22:12:00 +0000 2017,@AppleSupport My iPhone 11 battery drains from 100% to 10% in just two hours. Is this a hardware glitch?,683,
+683,AppleSupport,False,Tue Oct 31 22:18:00 +0000 2017,"@user_682 Battery health is vital. Check Settings > Battery > Battery Health, and send us a DM with your iOS version.",,682
+684,user_684,True,Tue Oct 31 22:20:00 +0000 2017,"@AppleSupport Ever since updating to iOS 17, WiFi keeps disconnecting every few minutes.",685,
+685,AppleSupport,False,Tue Oct 31 22:25:00 +0000 2017,@customer_3 Let's fix that. Go to Settings > General > Transfer or Reset > Reset Network Settings.,,684
+686,user_686,True,Tue Oct 31 22:30:00 +0000 2017,@AppleSupport My phone is stuck on the Apple logo during software update. What should I do?,687,
+687,AppleSupport,False,Tue Oct 31 22:35:00 +0000 2017,@customer_4 Connect to Finder/iTunes on a Mac/PC and enter Recovery Mode to restore or update your device.,,686
+688,user_688,True,Tue Oct 31 22:40:00 +0000 2017,@AppleSupport Forgot my Apple ID password and security questions. Cannot sign into iCloud.,689,
+689,AppleSupport,False,Tue Oct 31 22:45:00 +0000 2017,@customer_5 You can reset your password securely at iforgot.apple.com or via the Support app on a trusted device.,,688
+690,user_690,True,Tue Oct 31 22:50:00 +0000 2017,@AppleSupport My iCloud storage says full even after deleting hundreds of photos!,691,
+691,AppleSupport,False,Tue Oct 31 22:55:00 +0000 2017,@customer_6 Photos stay in 'Recently Deleted' for 30 days. Be sure to empty that folder in the Photos app.,,690
+692,user_692,True,Tue Oct 31 23:00:00 +0000 2017,@AppleSupport I was double charged for my Apple Music subscription this month! I want a refund.,693,
+693,AppleSupport,False,Tue Oct 31 23:05:00 +0000 2017,@customer_7 We can help review charges. Please visit reportaproblem.apple.com to check purchase history and request a refund.,,692
+694,user_694,True,Tue Oct 31 23:10:00 +0000 2017,@AppleSupport How do I cancel an app subscription that renewed automatically today?,695,
+695,AppleSupport,False,Tue Oct 31 23:15:00 +0000 2017,"@customer_8 Go to Settings > [Your Name] > Subscriptions, tap the subscription, and select Cancel Subscription.",,694
+696,user_696,True,Tue Oct 31 23:20:00 +0000 2017,@AppleSupport Left AirPod Pro won't connect or charge in the case.,697,
+697,AppleSupport,False,Tue Oct 31 23:25:00 +0000 2017,"@customer_9 Clean the charging contacts inside the case and AirPod stem, then hold the setup button on case to reset.",,696
+698,user_698,True,Tue Oct 31 23:30:00 +0000 2017,@AppleSupport Can I book a Genius Bar appointment for screen replacement online?,699,
+699,AppleSupport,False,Tue Oct 31 23:35:00 +0000 2017,@user_6980 Yes! You can schedule an appointment via support.apple.com or the Apple Support iOS app.,,698

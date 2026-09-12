@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Data & Large Files
+data/raw/twcs.csv
+data/raw/*.gz
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
