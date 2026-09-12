@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiver SDE — Customer Support Automation & Escalation Pipeline</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <style>
+    body { background-color: #f4f6f9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .hero-banner { background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%); color: white; border-radius: 12px; padding: 2.5rem; margin-bottom: 2rem; box-shadow: 0 4px 12px rgba(13,110,253,0.15); }
+    .card { border-radius: 10px; border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform 0.15s ease-in-out; }
+    .badge-auto { background-color: #198754; color: white; font-size: 1.1rem; padding: 0.5rem 1rem; border-radius: 20px; }
+    .badge-escalate { background-color: #dc3545; color: white; font-size: 1.1rem; padding: 0.5rem 1rem; border-radius: 20px; }
+    .sample-btn { border-radius: 20px; font-size: 0.85rem; font-weight: 500; margin-right: 0.5rem; margin-bottom: 0.5rem; }
+    .evidence-card { background-color: #f8f9fa; border-left: 4px solid #0d6efd; }
+    .reply-box { background-color: #eef5ff; border: 1px solid #c6d9f7; border-radius: 8px; font-family: monospace; font-size: 0.95rem; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+<div class="container py-4" style="max-width: 1100px;">
+
+  <!-- Header Banner -->
+  <div class="hero-banner">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <h1 class="h2 font-weight-bold mb-1"><i class="bi bi-robot"></i> Customer Support Automation & Escalation System</h1>
+        <p class="mb-0 text-white-50">Hiver SDE Intern Assignment — Intent Classification, Leakage-Filtered RAG, Grounded Reply Synthesis & Escalation Engine for <strong>@AppleSupport</strong></p>
+      </div>
+      <span class="badge bg-light text-primary fs-6 px-3 py-2">Local Server Active</span>
+    </div>
+  </div>
+
+  <!-- Query Input Form -->
+  <div class="card p-4 mb-4">
+    <h5 class="card-title fw-bold mb-3"><i class="bi bi-chat-left-quote-fill text-primary me-2"></i> Input Customer Query</h5>
+    <form method="POST" action="/" id="queryForm">
+      <div class="mb-3">
+        <textarea class="form-control form-control-lg" name="message" id="messageInput" rows="3" placeholder="Type a customer support message or tweet (e.g. @AppleSupport My iPhone screen went black...)" required>{{ query }}</textarea>
+      </div>
+
+      <div class="mb-3">
+        <small class="text-muted d-block mb-2 fw-semibold"><i class="bi bi-lightning-charge-fill text-warning me-1"></i> Try Sample Scenarios:</small>
+        {% for sample in sample_queries %}
+        <button type="button" class="btn btn-outline-secondary sample-btn" onclick='fillSample({{ sample.text | tojson }})'>
+          <i class="bi bi-arrow-return-right"></i> {{ sample.label }}
+        </button>
+        {% endfor %}
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-lg px-4"><i class="bi bi-cpu-fill me-2"></i> Run Support Pipeline</button>
+    </form>
+  </div>
+
+  {% if result %}
+  <!-- Results Dashboard -->
+  <div class="row g-4 mb-4">
+
+    <!-- Escalation & Intent Summary Card -->
+    <div class="col-md-6">
+      <div class="card h-100 p-4">
+        <h5 class="card-title fw-bold mb-3"><i class="bi bi-shield-check text-primary me-2"></i> Escalation Decision</h5>
+        
+        <div class="d-flex align-items-center mb-3">
+          {% if result.action == 'AUTO-HANDLE' %}
+          <span class="badge-auto"><i class="bi bi-check-circle-fill me-2"></i> AUTO-HANDLE</span>
+          {% else %}
+          <span class="badge-escalate"><i class="bi bi-exclamation-triangle-fill me-2"></i> ESCALATE TO HUMAN</span>
+          {% endif %}
+          <span class="ms-auto text-muted small fw-semibold">Confidence: {{ (result.confidence * 100) | round(2) }}%</span>
+        </div>
+
+        <p class="text-secondary small mb-3"><strong>Escalation Reason:</strong> {{ result.reason }}</p>
+
+        <hr>
+
+        <h6 class="fw-bold mb-2"><i class="bi bi-tag-fill text-primary me-2"></i> Predicted Intent Category</h6>
+        <div class="p-3 bg-light rounded mb-3">
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="badge bg-primary fs-6">{{ result.predicted_intent }}</span>
+            <span class="fw-bold text-dark">{{ (result.confidence * 100) | round(2) }}%</span>
+          </div>
+          <div class="progress mt-2" style="height: 8px;">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: {{ result.confidence * 100 }}%;"></div>
+          </div>
+        </div>
+
+        <h6 class="fw-bold mb-2">Intent Distribution</h6>
+        <div class="small">
+          {% for intent, prob in result.intent_probabilities.items() %}
+          <div class="d-flex justify-content-between align-items-center mb-1">
+            <span class="text-secondary">{{ intent }}</span>
+            <span class="font-monospace text-muted">{{ (prob * 100) | round(1) }}%</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Grounded Draft Reply Card -->
+    <div class="col-md-6">
+      <div class="card h-100 p-4">
+        <h5 class="card-title fw-bold mb-3"><i class="bi bi-reply-fill text-primary me-2"></i> Grounded Draft Response</h5>
+        <div class="reply-box p-3 mb-3">
+{{ result.draft_reply }}
+        </div>
+        <div class="d-flex justify-content-between text-muted small">
+          <span><strong>Generation Mode:</strong> {{ result.reply_mode }}</span>
+          <span><strong>Top Similarity Score:</strong> {{ result.top_similarity | round(4) }}</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RAG Evidence Section -->
+  <div class="card p-4 mb-4">
+    <h5 class="card-title fw-bold mb-3"><i class="bi bi-search text-primary me-2"></i> Retrieved Historical RAG Evidence (Leakage Filtered)</h5>
+    {% if result.retrieved_examples %}
+      <div class="row g-3">
+      {% for ev in result.retrieved_examples %}
+        <div class="col-md-6">
+          <div class="card p-3 evidence-card h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span class="badge bg-secondary">Match #{{ loop.index }}</span>
+              <span class="badge bg-info text-dark">Cosine Similarity: {{ ev.similarity_score | round(4) }}</span>
+            </div>
+            <p class="mb-2 small"><strong>Customer Query:</strong> "{{ ev.customer_text }}"</p>
+            <p class="mb-0 small text-success"><strong>Verified Brand Reply:</strong> "{{ ev.brand_reply }}"</p>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    {% else %}
+      <p class="text-muted mb-0">No historical resolution matches found above similarity threshold.</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <footer class="text-center text-muted small py-3">
+    Hiver SDE Take-Home Assignment &bull; Customer Support Automation & Escalation System &bull; Localhost Dashboard
+  </footer>
+</div>
+
+<script>
+  function fillSample(text) {
+    document.getElementById('messageInput').value = text;
+    document.getElementById('queryForm').submit();
+  }
+</script>
+</body>
+</html>
