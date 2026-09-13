@@ -23,13 +23,15 @@ class EscalationEngine:
         predicted_intent: str,
         confidence: float,
         top_similarity: float,
-        reply_meta: Dict
+        reply_meta: Dict,
+        confidence_threshold: float = None
     ) -> Dict[str, str]:
         """
         Evaluates support interaction and returns:
         - action: 'AUTO-HANDLE' or 'ESCALATE'
         - reason: Explicit, human-readable justification
         """
+        conf_thresh = confidence_threshold if confidence_threshold is not None else self.confidence_threshold
         msg_lower = message.lower()
         
         # Rule 1: Explicit customer human/agent escalation request keywords
@@ -48,10 +50,10 @@ class EscalationEngine:
             }
 
         # Rule 3: Low intent classification confidence
-        if confidence < self.confidence_threshold:
+        if confidence < conf_thresh:
             return {
                 "action": "ESCALATE",
-                "reason": f"Low intent classification confidence ({confidence:.2f} < threshold {self.confidence_threshold:.2f})."
+                "reason": f"Low intent classification confidence ({confidence:.2f} < threshold {conf_thresh:.2f})."
             }
 
         # Rule 4: Low retrieval similarity / insufficient historical evidence

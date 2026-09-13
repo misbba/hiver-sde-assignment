@@ -54,7 +54,8 @@ class SupportPipeline:
         message: str,
         tweet_id: Optional[str] = None,
         exclude_texts: Optional[List[str]] = None,
-        evaluation_mode: bool = False
+        evaluation_mode: bool = False,
+        confidence_threshold: Optional[float] = None
     ) -> Dict:
         """
         Processes a single customer message through the full pipeline with strict leakage prevention.
@@ -98,7 +99,8 @@ class SupportPipeline:
             predicted_intent=predicted_intent,
             confidence=confidence,
             top_similarity=top_similarity,
-            reply_meta=reply_meta
+            reply_meta=reply_meta,
+            confidence_threshold=confidence_threshold
         )
 
         return {
