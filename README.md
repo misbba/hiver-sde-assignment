@@ -84,7 +84,7 @@ Derived from actual `@AppleSupport` customer interactions (`src/config.py`):
 
 ### 2. Clone & Install Dependencies
 ```bash
-git clone https://github.com/your-repo/hiver-sde-assignment.git
+git clone https://github.com/misbba/hiver-sde-assignment.git
 cd hiver-sde-assignment
 pip install -r requirements.txt
 ```
@@ -178,6 +178,23 @@ hiver-sde-assignment/
 └── README.md                 # System documentation & quickstart guide
 ```
 
+---
+## 🌐 Live Demo
+
+**Live Application:** https://hiver-sde-assignment.onrender.com
+
+The deployed application provides:
+
+- Customer query processing
+- 7-category intent classification
+- Confidence-based escalation
+- Historical RAG evidence retrieval
+- Grounded response drafting
+- Auto-handle vs. human escalation decisions
+- Support history
+- Evaluation metrics
+- Confusion matrix and performance analysis
+- Configurable escalation threshold
 ---
 
 ## 📜 License & Acknowledgments
